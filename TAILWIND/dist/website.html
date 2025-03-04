@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INvestment</title>
+</head>
+<body class="bg-black">
+    
+    <div>
+    <nav class="h-[85px] w-full bg-white  shadow-lg flex  px-2 items-center text-xl justify-between">
+        <div class="p-1 font-bold text-blue-950 md:ml-[180px]">StockUp </div>
+        <input id="stockSearch" type="text" placeholder="Search Stocks..."
+            class="border p-2 rounded-lg focus:ring-2 focus:ring-blue-400">
+        <ul class=" space-x-6 font-serif md:flex hidden cursor-pointer text-sm text-blue-950 ">
+            <li >Invest</li>
+            <li class="">Contact Us</li>
+            <li class="">Help</li>
+        </ul>
+
+        <div class="flex space-x-3">
+            <div id="login"class="md:block hidden px-7 py-3 border text-green-700 border-green-700 text-sm font-sm cursor-pointer rounded-s-3xl rounded-e-3xl hover:text-white hover:bg-green-700 font-medium" >Login</div>
+            <div class="md:block hidden px-6 py-3 bg-green-700 rounded-s-3xl rounded-e-3xl text-white text-sm font-bold cursor-pointer hover:bg-green-600">Open Demat Account</div>
+        </div>   
+        <div>
+            <a class=" md:hidden text-4xl"href="#">&#8801;</a>
+        </div>
+    </nav>
+    </div>
+    
+
+    </div>
+    <div id="box" class=" hidden fixed ml-[480px] mt-7 w-[680px] h-[400px] bg-white rounded-xl "> 
+        <img id="wrong" class=" cursor-pointer pt-3 ml-[650px] w-4" src="https://cdn-icons-png.flaticon.com/128/7699/7699001.png" alt="">
+        <div class="pt-[10px] ml-[220px] text-3xl font-semibold">Welcome to StockUp</div>
+        <div class="mt-10 items-center flex">
+        
+        <div class=" ml-[20px] w-[300px] h-[200px]"><img src="https://files.oaiusercontent.com/file-86XkKvyuvjVj6Cyje4WySU?se=2025-02-01T16%3A30%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1ec2174f-fee4-45a7-b969-7eb5a02ee3c0.webp&sig=XM8vyS5P4ar/zCAQTRqK4kKSfT5KUCQEJOW8ACKX3YU%3D" alt=""> </div>
+        <div>
+            <div class="px-11 pt-3">India +91</div>
+            <div class="px-11 bg-#f7f7f7 " id="mob_no"><input type="text" placeholder="Enter 10 digit mobile number"></div>
+            <p class="px-11 text-[12px]">You will receive an OTP on this number</p>
+            
+            <p class="pt-11 px-11 mt[10px] text-[15px]">By proceeding, you agree to StockUp's Terms & Conditions.</p>
+            <div id="b"class=" ml-[90px] mt-4 w-[150px] px-7 justify-center items-center  py-5 bg-green-700 rounded-s-3xl rounded-e-3xl text-white text-sm font-semibold cursor-pointer hover:bg-green-600">Login/SignUp</div>
+
+        </div>
+        </div>
+    </div>
+
+    <div id="box2" class=" hidden fixed ml-[480px] mt-7 w-[680px] h-[400px] bg-white rounded-xl "> 
+        <img id="wrong2" class=" cursor-pointer pt-3 ml-[650px] w-4" src="https://cdn-icons-png.flaticon.com/128/7699/7699001.png" alt="">
+        <div class="pt-[10px] ml-[220px] text-3xl font-semibold">Welcome to StockUp</div>
+        <div class="mt-10 items-center flex">
+        
+        <div class=" ml-[20px] w-[300px] h-[200px]"><img src="https://files.oaiusercontent.com/file-86XkKvyuvjVj6Cyje4WySU?se=2025-02-01T16%3A30%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1ec2174f-fee4-45a7-b969-7eb5a02ee3c0.webp&sig=XM8vyS5P4ar/zCAQTRqK4kKSfT5KUCQEJOW8ACKX3YU%3D" alt=""> </div>
+        <div>
+            <img id="back" class=" cursor-pointer w-[30px] ml-6" src="https://cdn-icons-png.flaticon.com/128/2609/2609370.png" alt="">
+            <div id="otpverify">
+                <div class="mt-3 px-11 bg-#f7f7f7 "><input type="text" placeholder="Enter OTP"></div>
+                <p class="px-11 text-[12px]">You will receive an OTP on this number</p>
+                <p class="pt-11 px-11 mt[10px] text-[15px]">By proceeding, you agree to StockUp's Terms & Conditions.</p>
+                <div class=" ml-[90px] mt-4 w-[150px] px-7 justify-center items-center  py-5 bg-green-700 rounded-s-3xl rounded-e-3xl text-white text-sm font-semibold cursor-pointer hover:bg-green-600">Verify</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="h-[550px] bg-black item-center ">
+        
+        <div class="mt-[50px] item-center ml-[600px] text-slate-500 font-semibold text-2xl">All in One Super Money App</div>
+        <div class="mt-[20px] item-center ml-[300px] text-white font-bold text-7xl">Take Control of Your Money</div> 
+        <div class="mt-[30px] item-center ml-[500px] text-white font-semibold text-2xl">Track, Invest, Grow your Money on StockUp</div>
+        <div class="item center mt-[30px] ml-[600px] mr-[900px] w-[320px] md:block hidden px-7 py-5 bg-green-700 rounded-s-[40px] rounded-e-[40px] text-white text-xl font-bold cursor-pointer hover:bg-white hover:text-green-700">Open FREE Demat Account</div>
+        <div class="mt-[150px] item-center ml-[600px]"></div>
+    </div>
+
+    <div class="h-[650px] bg-white">
+        <div class="py-[30px] item-center ml-[400px] text-black font-bold text-5xl">All-in-one App for Investing</div>
+        <div class="mt-[10px] item-center text-slate-500 font-semibold text-md px-[430px]">Invest in Indian Stocks, US Stocks, Direct Mutual Funds, and Fixed Deposits.</div>
+        <div class="mt-[10px] item-center text-slate-500 font-semibold text-md px-[420px]">Set up your financial goals and link them with your investments on StockUp.</div>
+        <div class="mt-28  flex space-x-12 ml-[400px] bg-white">
+            <div class=" ">
+                <div class="p-6 w-[200px] h-[300px] bg-white rounded-xl shadow-lg  items-center space-x-4 text-black hover:text-white hover:bg-black hover:w-[250px] hover:h-[320px]">
+                    <div>
+                        <img class="h-[100px] w-[100px]" src="https://tse3.mm.bing.net/th?id=OIP.qknDfW8uv4GI--dk8bz2rQHaE8&pid=Api&P=0&h=180" alt="">
+                    </div>
+                    <div>
+                        <div class="text-2xl font-medium">
+                           <br>
+                            Mutual Funds
+                            <p class="text-slate-500 text-base">Start Building Your protfolio for IND 100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="p-6 w-[200px] h-[300px] bg-white rounded-xl shadow-lg  items-center space-x-4 hover:bg-black hover:text-white hover:w-[250px] hover:h-[320px]">
+                    <div>
+                        <img class="h-[100px] w-[100px]" src="https://tse3.mm.bing.net/th?id=OIF.h%2bD%2bOnxSBKBv7c1JS%2fHm4A&pid=Api&P=0&h=180" alt="">
+                    </div>
+                    <div>
+                        <div class="text-2xl font-medium">
+                           <br>
+                            Indian Stocks
+                            <p class="text-slate-500 text-base">Start Building Your protfolio for IND 100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="p-6 w-[200px] h-[300px] bg-white rounded-xl shadow-lg  items-center space-x-4 hover:bg-black hover:text-white hover:w-[250px] hover:h-[320px]">
+                    <div>
+                        <img class="h-[100px] w-[100px]" src="https://tse4.mm.bing.net/th?id=OIP.8o1nEgwtbtn1uGyqluw6NgAAAA&pid=Api&P=0&h=180" alt="">
+                    </div>
+                    <div>
+                        <div class="text-2xl font-medium ">
+                           <br>
+                                US Stocks
+                            <p class="text-slate-500 text-base">Start Building Your protfolio for IND 100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--  -->
+        <div class="w-full h-[650px] text-white flex">
+            <div>
+                <div class="py-[40px] text-7xl font-bold px-44">Zero* Cost Trading Account</div>
+                
+                <p class="mt-[10px] item-center text-slate-500 font-semibold text-lg px-44">Open a Demat account for Free*. Start investing in Stocks, ETFs & Mutual Funds.</p>
+                
+                <div class=" text-center mt-[60px] ml-[350px] w-[260px] md:block hidden px-7 py-5 bg-green-700 rounded-s-[40px] rounded-e-[40px] text-white text-xl font-bold cursor-pointer hover:bg-green-600">Open FREE IND A/c</div>
+
+            </div>
+            <div>
+                <img src="https://indcdn.indmoney.com/cdn-cgi/image/quality=auto,format=auto,width=600/https://indcdn.indmoney.com/cdn/homepage-zero-cost-account-image.png" alt="">
+            </div>
+        </div>
+
+        <div class="h-[650px] bg-white">
+        <img class="pt-[100px] px-[490px]"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=auto,format=auto,width=322.5/https://indcdn.indmoney.com/public/images/trust_image.png" alt="">
+        <div class="mt-[50px] item-center text-center text-black font-bold text-7xl px-32">Trusted by  happy investors</div>
+        <div class="mt-[30px] item-center text-center text-slate-500 font-semibold text-2xl px-[430px]">Open your account in a minute. Invest in Indian Stocks, US Stocks, Mutual Funds, ETFs, Fixed Deposit and NPS.</div>
+    
+        </div>
+        <div class="w-full h-[650px] text-white flex">
+            <div class="pl-44 py-36 w-[800px] h-[10px]">
+                <img src="https://files.oaiusercontent.com/file-PUGbSbmv3MEfth7TqfUW1g?se=2025-02-25T09%3A26%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dcfbffdae-78b1-451f-b43e-90c349adeeea.webp&sig=EYGDYyxIoFvQoWkoowYdKzJaxak945hoA8ADZuaMAbI%3D" alt="">
+            </div>
+            <div>
+                <div class=" mt-24 ml-44 text-left border w-44 p-2 text-bold">Super financial App</div>
+                <div class="pt-6 pb-[40px] text-7xl font-bold px-44">Track All Your Finances at one place.</div>
+                
+                <div class="mt-[10px] item-center text-slate-500 font-semibold text-lg pl-48 flex space-x-9 "> <p> &#128513; Super Money App for all your <br>financial needs</p>
+                   <p> &#128513;Diversify your portfol</p>
+                    
+                </div>
+                <p class="mt-[10px] item-center text-slate-500 font-semibold text-lg pl-48">&#128513; Join 0Cr+ happy investors</p>
+                <div class=" text-center mt-[30px] ml-[350px] w-[260px] md:block hidden px-7 py-5 bg-green-700 rounded-s-[40px] rounded-e-[40px] text-white text-xl font-bold cursor-pointer hover:bg-green-600">Get Started</div>
+
+            </div>
+           
+        </div>
+
+
+
+
+
+
+
+</body>
+    <script src="website.js"></script>
+</html>

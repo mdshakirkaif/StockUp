@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STockUp</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+     
+    <nav class=" h-[85px] w-full bg-white shadow-md p-4 flex justify-between items-center fixed">
+        <div class="ml-36 text-2xl font-bold text-black">StockUp</div>
+        <input id="stockSearch" type="text" placeholder="Search Stocks..."
+            class="border p-2 rounded-lg focus:ring-2 focus:ring-blue-400  bg-gray-100">
+        <div class="space-x-6">
+            
+            <a href="#" class=" text-blue-400 border border-blue-400  border-l-2 p-3 font-[3px] rounded-xl py-2 bg-gray-100">Dashboard</a>
+            <a href="indian.html" class="text-gray-700 hover:text-blue-600 border-l-2 p-3 font-[3px] rounded-xl py-2 bg-gray-100">Indian Stocks</a>
+            <a href="US_stocks.html" class="text-gray-700 hover:text-blue-600 border-l-2 p-3 font-[3px] rounded-xl py-2 bg-gray-100">US Stocks</a>
+            <a href="mutual_funds.html" class="text-gray-700 hover:text-blue-600 border-l-2 p-3 font-[3px] rounded-xl py-2 bg-gray-100">Mutual Funds</a>
+            <a href="news2.html" class="text-gray-700 hover:text-blue-600 border-l-2 p-3 font-[3px] rounded-xl py-2 bg-gray-100"><button >News</button></a>
+           
+        </div>
+        <img src="" alt="">
+    </nav>
+
+    
+   
+    <!-- <div class=" ml-36 pt-[57px] container mx-auto px-4 py-6  w-[835px]"> -->
+        
+
+    <!-- My Assets -->
+    <div class="  flex">
+        <div class="mt-[130px] ml-40 pt-[57px] container mx-auto px-4 py-6  w-[835px]  bg-gradient-to-r from-blue-950 to-blue-900 text-white p-7 rounded-lg shadow-lg justify-center items-center">
+            <div class="mb-3">
+
+                <h2 class=" text-sm font-[40px] ">MY ASSETS</h2>
+            </div>
+            <div class="flex w-[500px] gap-3">
+            <p class="mt-1 text-4xl font-bold " >₹78,750 </p>
+            <img id="btn" class="mt-4 w-5 h-5 cursor-pointer border border-white rounded-3xl pt-[2x] pb-[1px] pl-1 pr-1 bg-blue-800" src="https://img.icons8.com/?size=100&id=39942&format=png&color=FFFFFF" alt="">
+            </div>
+            <p class=" mt-9 pt-3 text-sm">Top Gainer: <span class="font-semibold text-green-300">TCS ▲ 1.75%</span></p>
+            </div>
+    
+            <div id="box" class="hidden mt-[100px] fixed ml-[550px] w-[440px] h-[500px] bg-white rounded-xl "> 
+                <img id="wrong" class=" cursor-pointer pt-3 ml-[400px] w-4" src="https://cdn-icons-png.flaticon.com/128/7699/7699001.png" alt="">
+                <div class=" w-9 h-11 "></div>
+                <div class=""></div>
+            </div>
+        </div>
+    </div>
+        
+
+    
+
+        
+    <div class="ml-40  mt-7 mx-auto w-[835px] h-[545px] bg-white rounded-lg  ">
+        <div class="ml-9 pt-7 w-16 h-10 justify-center items-center flex text-blue-400  text-sm font-semibold"><p class="bg-blue-100 px-5 py-1 rounded-md">Assets</p></div>
+        <div class="ml-16 justify-center items-center flex flex-wrap gap-24 cursor-pointer">
+       <div class="mt-14"><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/INStocks_iso@3x.png" alt="">
+
+       <p>INDstocks</p>
+        </div>
+       <div class="mt-14"><img class=" w-10"src="https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/MutualFunds_iso@3x.png" alt="">
+        <p>Mutual Funds</p>
+        </div>
+       <div class="mt-14"><img class="w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=80,format=auto,metadata=copyright/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/USStocks_iso@3x.png" alt="">
+        <p>US Stocks</p>
+        </div>
+       <div class="mt-14"><img class=" w-10"src="https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/NPS_iso@3x.png" alt="">
+        <p>NPS</p>
+        </div>
+       <div class="mt-14"><img class=" w-10"src="https://indcdn.indmoney.com/cdn/images/fe/vehicle_dashboard_icon.png" alt="">
+        <p>Vehicle</p></div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/FD_iso@3x.png" alt="">
+        <p>Fixed Income</p></div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/EPF@3x.png" alt="">
+        <p>EPF</p>
+        </div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/Bonds_iso@3x.png" alt="">
+        <p> Bonds</p></div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/PPF_iso@3x.png" alt="">
+        <p>PPF</p>
+    </div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/AIF_iso@3x.png" alt="">
+        <p> AIF</p></div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/Gold_iso@3x.png" alt="">
+        <p>Gold </p>
+    </div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/EsopRsu_iso@3x.png" alt="">
+        <p>ESOPs/RSus </p>
+    </div>
+       <div><img class=" w-10"src="https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/dashboard_drawer/web_investments_widget_images/Add@3x.png" alt="">
+        <p>Add </p>
+    </div>
+        </div>
+    </div>
+
+    <div class="ml-40  mt-7 container mx-auto w-[835px] h-[220px] bg-white rounded-lg">
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+
+
+
+
+
+        <!-- <div class="mt-6">
+            <h3 class="text-xl font-semibold">Stock Recommendations</h3>
+            <div id="recommendations" class="grid grid-cols-3 gap-4 mt-4"></div>
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-6 mt-6">
+            Indian Stocks -->
+            <!-- <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold">Indian Stocks</h3>
+                <ul id="indianStocks" class="mt-2 space-y-2"></ul>
+            </div> -->
+
+            <!-- <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold">US Stocks</h3>
+                <ul id="usStocks" class="mt-2 space-y-2"></ul>
+            </div> -->
+
+
+            <!-- <div class="bg-white p-4 rounded-lg shadow">
+                <h3 class="text-lg font-semibold">Mutual Funds</h3>
+                <ul id="mutualFunds" class="mt-2 space-y-2"></ul>
+            </div>
+        </div> --> 
